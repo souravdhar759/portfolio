@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 function Navber(props) {
   return (
-    <div><nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <div className='navdiv'><nav  className="navbar navbar-expand-lg  navi">
     <div className="container-fluid">
       <Link className="navbar-brand" to="/">{props.title}</Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
